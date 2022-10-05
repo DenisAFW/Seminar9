@@ -15,7 +15,7 @@ def operations():
             value_a, value_b = get_value()
             result = (f'{value_a}, {value_b}')
             view_data(result, 'Сохраненные переменные')
-        if choice == 2:
+        elif choice == 2:
             result = addition(value_a,value_b)
             view_data(result, 'Результат сложения')
         elif choice == 3:
