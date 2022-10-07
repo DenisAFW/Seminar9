@@ -4,7 +4,7 @@ import sys
 import random
 
 
-from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, User
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, User
 from telegram.ext import Updater, CommandHandler, MessageHandler, \
     ConversationHandler, Filters, CallbackQueryHandler
 
